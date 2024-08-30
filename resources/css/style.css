@@ -4,13 +4,15 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-header h1 {
+header h1,
+#ending h1 {
     font-weight: normal;
     font-size: 50px;
     color: white;
 }
 
-header p {
+header p,
+#ending p {
     text-decoration: underline;
     color: aquamarine;
     font-size: 16px;
@@ -25,4 +27,13 @@ header p {
 #personal p {
     font-size: 21px;
     color: grey;
+}
+
+#ending img {
+    padding-top: 20px;
+}
+
+footer {
+    text-align: right;
+    color: gray;
 }
